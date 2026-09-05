@@ -1008,7 +1008,7 @@ footer { max-width: none; padding-left: var(--gutter); padding-right: var(--gutt
 .use-leadership { grid-column: span 12; min-height: 270px; background: #244A5D; }
 .use-tags,.media-line { margin-top: auto; padding-top: 30px; display: flex; flex-wrap: wrap; gap: 8px; }
 .use-tags span,.media-line span { padding: 7px 10px; border: 1px solid currentColor; font-size: 11px; font-weight: 800; letter-spacing: .08em; }
-.use-cta { margin-top: auto; padding-top: 28px; align-self: flex-start; border-bottom: 1px solid currentColor; font-size: 13px; font-weight: 800; }
+.use-cta { min-height:44px; margin-top:auto; padding-top:20px; align-self:flex-start; display:inline-flex; align-items:flex-end; border-bottom:1px solid currentColor; font-size:13px; font-weight:800; }
 .living-showcase { background: #DFEEF0; }
 .living-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(60px,9vw,130px); }
 .living-grid h2 { font-size: clamp(3rem,5vw,5.2rem); }
